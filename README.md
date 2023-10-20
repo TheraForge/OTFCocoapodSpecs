@@ -1,6 +1,30 @@
 # OTFCocoapodSpecs
 
-The OTFCocoapodspecs contains Open Theraforge framework specs of the private cocoapods. 
+The OTFCocoapodSpecs repository contains the podspecs for the Open TheraForge SDK's frameworks. Pod specifications (podspecs) and their syntax are defined in the [CocoaPods documentation](https://guides.cocoapods.org/syntax/podspec.html).
+
+## Change Log
+<details open>
+<summary>Release 1.0.3-beta</summary>
+
+ - **Addition of new pod OTFUtalitiies**
+   - Addition of helper methods for enchance logging with oslog
+   - Addition of Swift Sodium helper function forr end-to-end encryption
+</details>
+
+<details >
+<summary>Release 1.0.2-beta</summary>
+<ul>
+<li>Set default configuration of OTFToolBox to include the Care compilation flag</li>
+<li>Added configuration of OTFToolBox to include the CareHealth compilation flag</li>
+</ul>
+</details>
+
+<details>
+<summary>Release 1.0.0-beta</summary>
+<ul>
+<li>First beta release of the pods</li>
+</ul>
+</details>
 
 ## Table of contents
 * [Overview](#Overview)
