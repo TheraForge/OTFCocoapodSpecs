@@ -4,9 +4,21 @@ The OTFCocoapodSpecs repository contains the podspecs for the Open TheraForge SD
 
 ## Change Log
 <details open>
+<summary>Release 1.0.4-beta</summary>
+
+   - **Addition of new pod OTFDesignSystem**
+   - Added watchOS support.
+   - Removed GoogleToolboxForMac from OTFCDTDatastore.
+   - Removed FMDB from OTFCDTDataStore.
+   - Excluded SystemConfiguration framework from CDTDatastore specs.
+   - Included OTFToolBoxCore as dependency for watchOS in OTFCDTDatastore.
+   - Added new dependency OTFDesignSystem.
+</details>
+
+<details>
 <summary>Release 1.0.3-beta</summary>
 
- - **Addition of new pod OTFUtalitiies**
+   - **Addition of new pod OTFUtilities**
    - Addition of helper methods for enchance logging with oslog
    - Addition of Swift Sodium helper function forr end-to-end encryption
 </details>
