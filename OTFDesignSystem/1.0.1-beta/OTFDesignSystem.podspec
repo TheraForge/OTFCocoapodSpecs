@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '14.0'
     s.swift_version = '5.0'
     s.source_files = 'OTFDesignSystem/Sources/OTFDesignSystem/**/*'
+    s.resources = 'OTFDesignSystem/Sources/OTFDesignSystem/**/*'
   end
