@@ -23,11 +23,12 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Care'
 
   s.subspec 'Care' do |ss|
-    ss.pod_target_xcconfig = {
+	  ss.pod_target_xcconfig = {
 	    'SWIFT_ACTIVE_COMPILATION_CONDITIONS' => '$(inherited)'
 	  }
 	  ss.dependency 'OTFCloudantStore/CloudantCare', '1.0.5-beta'
 	  ss.dependency 'OTFCareKit/Care', '2.0.2-beta.5'
+	  ss.dependency 'OTFResearchKit', '2.0.0-beta.5'
   end
 
   s.subspec 'CareHealth' do |ss|
@@ -36,5 +37,6 @@ Pod::Spec.new do |s|
 	  }
 	  ss.dependency 'OTFCloudantStore/CloudantCareHealth', '1.0.5-beta'
 	  ss.dependency 'OTFCareKit/CareHealth', '2.0.2-beta.5'
+	  ss.dependency 'OTFResearchKit', '2.0.0-beta.5'
   end
-end	
+end
