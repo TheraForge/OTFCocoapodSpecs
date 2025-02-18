@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
     s.source_files = 'OTFTemplateBox/**/*.{h,m,c,swift}'
     s.exclude_files = 'OTFTemplateBox/Pods/**/*', 'OTFTemplateBox/info.plist', 'OTFTemplateBox/Support Files/**/*.{h,m,swift}'
     s.ios.deployment_target = '13.0'
-    s.dependency 'Yams'
+    s.dependency 'Yams', '5.0.6'
     s.dependency 'OTFToolBoxCore', '1.0.5-beta'
     s.dependency 'OTFCareKitUI'
     s.dependency 'OTFDesignSystem', '1.0.1-beta'
+    s.dependency 'OTFUtilities', '1.0.2-beta'
   end
