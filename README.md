@@ -4,6 +4,12 @@ The OTFCocoapodSpecs repository contains the podspecs for the Open TheraForge SD
 
 ## Change Log
 <details open>
+<summary>Release 2.0.0</summary>
+ 
+ - Updated component release numbers for TheraForge 2.0.0 release
+</details>
+
+<details>
 <summary>Release 1.0.5-beta</summary>
  
  - Updated component release numbers for the new TheraForge release
