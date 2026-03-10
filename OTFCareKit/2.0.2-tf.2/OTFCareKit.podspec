@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary               = 'OTFCareKit is an open source software framework for creating apps that help people better understand and manage their health.'
   s.homepage              = 'https://github.com/TheraForge/OTFCareKit'
   s.documentation_url     = 'https://github.com/TheraForge/OTFCareKit/blob/main/README.md'
-  s.license               = { :type => 'BSD', :file => 'LICENSE.md' }
+  s.license               = { :type => 'BSD', :file => 'LICENSE' }
   s.author                = { 'Hippocrates Technologies' => 'hippocratestech-dev@googlegroups.com' }
   s.source                = { :git => 'https://github.com/TheraForge/OTFCareKit.git', :tag => s.version.to_s }
   s.exclude_files         = [ 'OTFCareKit/OTFCareKit/**/*.plist', 'OCKCatalog', 'OCKSample', 'DerivedData' ]

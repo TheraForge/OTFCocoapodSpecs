@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '2.0.0'
   s.summary          = 'OTFUtilities is a parent framework for multiple other frameworks.'
   s.homepage         = 'https://github.com/TheraForge/OTFUtilities'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'BSD', :file => 'LICENSE.md' }
   s.author           = { 'Hippocrates Technologies' => 'hippocratestech-dev@googlegroups.com' }
   s.source           = { :git => 'https://github.com/TheraForge/OTFUtilities.git', :tag => s.version.to_s }
 
